@@ -1,10 +1,11 @@
 package edu.temple.inclassuiacvitivity
 
+import android.content.Context
 import android.view.View
 import android.view.ViewGroup
 import android.widget.BaseAdapter
 
-class TextSizeAdapter : BaseAdapter() {
+class TextSizeAdapter(_context: Context, _textSize: Array<String>) : BaseAdapter() {
 
     override fun getCount(): Int {
         TODO("Not yet implemented")
